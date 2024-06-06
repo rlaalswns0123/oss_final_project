@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meetup is a free responsive single page bootstrap template by designerdada.com">
+  <meta name="author" content="Akash Bhadange">
+  <title>MINJUN's HOMEPAGE</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/themify-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&display=swap"
+    rel="stylesheet" type='text/css'>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script defer src="js/todo.js "></script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".side-menu">
+  <nav class="side-menu">
+    <ul>
+      <li class="hidden active">
+        <a class="page-scroll" href="#page-top"></a>
+      </li>
+      <li>
+        <a href="#home" class="page-scroll">
+          <span class="menu-title">Home</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#travels" class="page-scroll">
+          <span class="menu-title">TRAVEL</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#tickets" class="page-scroll">
+          <span class="menu-title">MINJUN's Hobby</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#schedule" class="page-scroll">
+          <span class="menu-title">Festival</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container-fluid">
+    <!-- Start: Header -->
+    <div class="row hero-header" id="home">
+      <div class="col-md-7">
+        <h1>여행을 사랑하고 좋아하는</h1>
+        <h3>정보융합학부 2021204005 김민준</h3>
+        <h4>January, 23<sup>th</sup>, 2002</h4>
+        <a href="https://m.cafe.naver.com/ca-fe/firenze" class="btn btn-lg btn-red" target="_blank">Do you like
+          travel?<span class="ti-arrow-right"></span></a>
+
+      </div>
+      <div class="col-md-5 hidden-xs">
+        <img src="img/여행가.png" class="travel animated bounce">
+      </div>
+    </div>
+    <!-- End: Header -->
+  </div>
+  <div class="container">
+    <!-- Start: Desc -->
+    <div class="row me-row content-ct">
+      <h2 class="row-title">김민준을 소개합니다 !!</h2>
+      <div class="col-md-4 feature">
+        <span class="ti-ticket"></span>
+        <h3>김민준의 일대기</h3>
+        <p>출생지 : 천안 <br> 초중학교 : 천안백석초/중학교 <br> 고등학교 : 천안오성고 <br> 대학교 : 광운대학교 정보융합학부 <br> 군대 : 8사단 육군 만기전역 </p>
+      </div>
+      <div class="col-md-4 feature">
+        <span class="ti-microphone"></span>
+        <h3>김민준의 취미</h3>
+        <p>저는 야구와 축구를 보는 것을 좋아합니다. <br> 축구는 Epl에서 리버풀을 좋아하고
+          야구는 KBO에서 <br>한화이글스를 좋아합니다. 저의 메인 취미는 여행입니다. 특히 해외여행을 좋아합니다.
+          또 사람들과 즐기는 축제, 행사에 가는 것을 좋아합니다
+        </p>
+      </div>
+      <div class="col-md-4 feature">
+        <span class="ti-world"></span>
+        <h3>김민준의 꿈과 미래</h3>
+        <p>제 꿈은 돈을 많이 벌어서 세계 곳곳을 여행하며 다니는 것입니다.
+          제 미래는 아직 제가 하고 싶은 것이 정해지지 않아서 대학을 다니며
+          저에게 잘 맞는 진로를 정하려고 합니다!
+        </p>
+      </div>
+    </div>
+    <!-- End: Desc -->
+
+    <!-- Start: travels -->
+    <div class="row me-row content-ct travel" id="travels">
+      <h2 class="row-title">My travel list</h2>
+      <div class="col-md-4 col-sm-6 feature">
+        <img src="img/교토.jpg" class="travel-img">
+        <h3>일본 교토</h3>
+        <ul class="travel-social">
+          <li><a href="https://www.instagram.com/p/CyvtpmYLCNiqr7pTaU_jtiWCXCVH5c86yoUISE0/?img_index=1"
+              target="_blank"><span class="ti-instagram"></span></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-6 feature">
+        <img src="img/오사카.jpg" class="travel-img">
+        <h3>일본 오사카</h3>
+        <ul class="travel-social">
+          <li><a href="https://www.instagram.com/p/CyqhEXALviURmR_itItojuCeMrRUeYd8FJsDSQ0/?img_index=1"
+              target="_blank"><span class="ti-instagram"></span></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-6 feature">
+        <img src="img/로마.jpg" class="travel-img">
+        <h3>이탈리아 로마</h3>
+        <ul class="travel-social">
+          <li><a href="https://www.instagram.com/p/C0Yi16oolapItqS1MZgpO_n19jtlfYsUjCwYzI0/?img_index=1"
+              target="_blank"><span class="ti-instagram"></span></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-6 feature">
+        <img src="img/바르셀로나.jpg" class="travel-img">
+        <h3>스페인 바르셀로나</h3>
+        <ul class="travel-social">
+          <li><a href="https://www.instagram.com/p/C0uwL5MIbP8GUK4tG-vF3_xNBsNYZ2xsTN1mXc0/?img_index=5"
+              target="_blank"><span class="ti-instagram"></span></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-6 feature">
+        <img src="img/파리.jpg" class="travel-img">
+        <h3>프랑스 파리</h3>
+        <ul class="travel-social">
+          <li><a href="https://www.instagram.com/p/C0-ap-2o7qc4arT3aBQb9XyAfe5J9O_9MWEddw0/?img_index=1"
+              target="_blank"><span class="ti-instagram"></span></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-6 feature">
+        <img src="img/리버풀.jpg" class="travel-img">
+        <h3>영국 리버풀</h3>
+        <ul class="travel-social">
+          <li><a href="https://www.instagram.com/p/C1Aso85rupndDr5uqTkXpb-LUQ1qCL0yrOIqyo0/?img_index=1"
+              target="_blank"><span class="ti-instagram"></span></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End: travels -->
+  </div>
+
+  <!-- Start: Tickets -->
+  <div class="container-fluid tickets" id="tickets">
+    <div class="row me-row content-ct">
+      <h2 class="row-title">My Hobby</h2>
+      <div class="col-md-4 col-sm-6 col-md-offset-2">
+        <h3>1st Hobby</h3>
+        <p class="price">Baseball</p>
+        <a href="https://www.hanwhaeagles.co.kr/ticketInfo.do" class="btn btn-lg btn-red" target="_blank">Hanwha
+          Eagels</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <h3>2nd Hobby</h3>
+        <p class="price">Soccer</p>
+        <a href="https://www.liverpoolfc.com/" class="btn btn-lg btn-red" target="_blank">Liverpool</a>
+      </div>
+    </div>
+  </div>
+  <!-- End: Tickets -->
+
+  <!-- Start: Schedule -->
+  <div class="container">
+    <div class="row me-row schedule" id="schedule">
+      <h1 class="row-title content-ct">Kwangwoon Festival : AINES(소원)</h1>
+      <div class="col-md-12">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#day-1" aria-controls="home" role="tab" data-toggle="tab">Day
+              01 <small class="hidden-xs">(22<sup>nd</sup>, May)</small></a></li>
+          <li role="presentation"><a href="#day-2" aria-controls="profile" role="tab" data-toggle="tab">Day 02
+              <small class="hidden-xs">(23<sup>th</sup>, May)</small></a></li>
+          <li role="presentation"><a href="#day-3" aria-controls="messages" role="tab" data-toggle="tab">Day
+              03 <small class="hidden-xs">(24<sup>th</sup>, May)</small></a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane fade in active" id="day-1">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/밤양갱 비비.jpg" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">비비</h4>
+                    <h5>히트곡 / 내가 좋아하는 곡</h5>
+                    <p>밤양갱 / 비누 / 나쁜 X / 우리가 헤어졌던 이유</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/김수영 가수.jpg" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">김수영</h4>
+                    <h5>싱어게인3 출연 히트곡</h5>
+                    <p>잊지 말기로 해 - 윤하 / 야생화 - 박효신<br>바람 - 김수영 / 나의 옛날 이야기 - 조덕배</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/댄스그룹.png" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">C-SPOT</h4>
+                    <h5>광운대학교 춤,랩 동아리</h5>
+                    <p>RAP : R&B, 하이퍼팝 등의 장르 등등 활동
+                      <br> DANCE : 춤을 좋아하는 사람들이 모여 활동
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/주점.png" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">주점</h4>
+                    <h5>과 주점</h5>
+                    <p>각 과마다 진행하는 주점을 한 번씩 돌고 와야 축제를 <br> 진정히 즐겼다고 할 수 있다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="day-2">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/실리카겔.jpg" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">실리카겔</h4>
+                    <h5>히트곡</h5>
+                    <p> No Pain / Desert Eagle / Tik Tak Tok / Relize </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/창모.jpg" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">창모</h4>
+                    <h5>히트곡</h5>
+                    <p> METEOR / Wait for me / 마에스트로 / 아이야 / Self my orange </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/제네더질라.jpg" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">제네더질라</h4>
+                    <h5>히트곡</h5>
+                    <p>뜨거워 완전 / 귀감 / 한강갱 / ITX / 요즘 같은 날</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/노을.png" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">노을</h4>
+                    <h5>광운대학교 밴드</h5>
+                    <p>악기를 배우고 싶거나 다루는 것을 좋아하는 사람들의 동아리</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="day-3">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/지코.jpg" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">지코</h4>
+                    <h5>히트곡</h5>
+                    <p> SPOT! / 아무노래 / Okeydokey / 새삥 / Boys and Girl </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/다비치1.jpg" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">다비치</h4>
+                    <h5>히트곡</h5>
+                    <p> 이 사랑 / 너의 편이 돼 줄게 / 8282 / 거북이 / 팡파레</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/에스파.jpg" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">aespa</h4>
+                    <h5>김민준 최애 그룹 / 히트곡</h5>
+                    <p>김민준의 군생활의 80%를 책임진 아이돌<br>
+                      Drama / 도깨비불 / Spicy / Dreams come true / Savage
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="media">
+                  <div class="media-left">
+                    <img class="media-object" src="img/케미.png" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">K-ME 케미</h4>
+                    <h5>중앙 케이팝 댄스 동아리</h5>
+                    <p>케이팝을 좋아하거나 춤에 관심 있는 사람들의 동아리</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End: Schedule -->
+
+  <!-- Start: Footer -->
+  <div class="container-fluid footer">
+    <div class="row contact">
+      <div class="col-md-6 contact-form">
+        <h3 class="content-ct"><span class="ti-email"></span> Guestbook</h3>
+        <form id="guestbook-form" class="form-horizontal" data-toggle="validator" role="form">
+          <div class="form-group">
+            <label for="name" class="col-sm-3 control-label">Name<sup>*</sup></label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+              <div class="help-block with-errors pull-right"></div>
+              <span class="form-control-feedback" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">Email<sup>*</sup></label>
+            <div class="col-sm-9">
+              <input type="email" class="form-control" id="email" placeholder="you@youremail.com" required>
+              <div class="help-block with-errors pull-right"></div>
+              <span class="form-control-feedback" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-sm-3 control-label">Message<sup>*</sup></label>
+            <div class="col-sm-9">
+              <textarea id="message" class="form-control" rows="3" placeholder="Your message here" required></textarea>
+              <div class="help-block with-errors pull-right"></div>
+              <span class="form-control-feedback" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-9">
+              <button type="submit" id="submit" name="submit" class="btn btn-yellow pull-right">Sign
+                Guestbook <span class="ti-arrow-right"></span></button>
+            </div>
+          </div>
+        </form>
+        <div id="guestbook-entries" class="todos-container"></div>
+      </div>
+      <div class="col-md-4 col-md-offset-1 content-ct">
+        <h3>삶의 명언</h3>
+        <p>요한 볼프강 콘 괴테 : 인간을 현재의 모습으로 판단한다면 그는 더 나빠질 것이다. 하지만 그를 미래의 가능한 모습으로 바라보라. 그러면 그는 정말로 그런 사람이 될 것이다
+        </p>
+        <hr>
+        <p>도서 '어떤 하루' : 같은 실수를 두려워 하되 다른 실수를 두려워하지 말라. 실수는 곧 경험이다.
+        </p>
+        <hr>
+        <p>아브라함 링컨 : 조급해 하지 말고 조바심 내지 말고, 할 수 있는 만큼 최선을 다하자. 때론 넘어질 때도 있지만 쓰러지지
+          않으면 일어설 수 있다. 실체가 없는 두려움에 뒷걸음 치는 것은 자기 자신에 대한 비겁한 짓이다. 더디더라도 노력하면서
+          앞으로 나아가면 무엇이든 해낼 수 있고 얼마큼이든 이룰 수 있다.
+        </p>
+      </div>
+    </div>
+    <div class="row footer-credit">
+      <div class="col-md-6 col-sm-6">
+        <p>&copy; 2024, Open source Software</a> | This is MINJUN's HOMEPAGE.</p>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <ul class="footer-menu">
+          <li><a href="https://www.instagram.com/rlaminj_/" target="_blank">Instagram</a></li>
+          <li><a href="https://github.com/rlaalswns0123" target="_blank">github</a></li>
+          <li><a href="https://www.kw.ac.kr/ko/" target="_blank">My university</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End: Footer -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
+  <script src="js/validator.js"></script>
+
+</body>
+
+</html>
